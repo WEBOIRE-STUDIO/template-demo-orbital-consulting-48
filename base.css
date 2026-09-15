@@ -1454,7 +1454,7 @@ body[class*="experimental-"] .hero-abstract-bg::after {
    per the Three.js scene in script.js's 'orbit-orb' recipe) — an
    asymmetric text-left/object-right composition, matching the reference,
    rather than text and orb both fighting for the same center spot. */
-.hero-immersive-3d .hero-inner { position: relative; z-index: 1; max-width: 520px; }
+.hero-immersive-3d .hero-inner { position: relative; z-index: 1; max-width: 440px; }
 .hero-immersive-heading {
   font-size: clamp(2.8rem, 7.4vw, 6.4rem); font-weight: 800; letter-spacing: -0.02em; line-height: 1.03;
   color: var(--text-on-primary, #f2f1ee);
