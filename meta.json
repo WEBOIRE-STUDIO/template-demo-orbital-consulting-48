@@ -3,9 +3,9 @@
   "heroVariant": "immersive-3d-hero",
   "serviceLayout": "numbered-list",
   "ctaStyle": "outline",
-  "paletteSeed": 1,
-  "heroSeed": 1,
-  "copySeed": 1,
+  "paletteSeed": 2,
+  "heroSeed": 2,
+  "copySeed": 2,
   "artDirection": {
     "key": "immersive-3d-hero",
     "label": "Immersive 3D Hero — dark orbit",
