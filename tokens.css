@@ -1,0 +1,13 @@
+:root {
+  --primary: #f2f1ee;
+  --primary-dark: #0a0a0d;
+  --accent: #eaa93d;
+  --text-dark: #f2f1ee;
+  --text-on-primary: #0b0b0e;
+  --bg-light: #0a0a0b;
+  --bg-alt: #151517;
+  --border: rgba(255,255,255,0.12);
+  --radius: 999px;
+  --font-heading: 'Manrope';
+  --font-body: 'Inter';
+}
