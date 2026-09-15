@@ -1449,7 +1449,12 @@ body[class*="experimental-"] .hero-abstract-bg::after {
   padding: 140px 24px 100px; overflow: hidden; background: #0a0a0d;
 }
 .hero-immersive-3d .experimental-particles { position: absolute; inset: 0; width: 100%; height: 100%; z-index: 0; }
-.hero-immersive-3d .hero-inner { position: relative; z-index: 1; max-width: 900px; }
+/* Constrained and left-aligned so the text column stays clear of the 3D
+   scene's focal point (the orb renders centered in the canvas/camera view,
+   per the Three.js scene in script.js's 'orbit-orb' recipe) — an
+   asymmetric text-left/object-right composition, matching the reference,
+   rather than text and orb both fighting for the same center spot. */
+.hero-immersive-3d .hero-inner { position: relative; z-index: 1; max-width: 520px; }
 .hero-immersive-heading {
   font-size: clamp(2.8rem, 7.4vw, 6.4rem); font-weight: 800; letter-spacing: -0.02em; line-height: 1.03;
   color: var(--text-on-primary, #f2f1ee);
