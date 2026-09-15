@@ -1,0 +1,83 @@
+{
+  "templateKey": "professional_services",
+  "heroVariant": "immersive-3d-hero",
+  "serviceLayout": "numbered-list",
+  "ctaStyle": "outline",
+  "paletteSeed": 0,
+  "heroSeed": 0,
+  "copySeed": 0,
+  "artDirection": {
+    "key": "immersive-3d-hero",
+    "label": "Immersive 3D Hero — dark orbit",
+    "rationale": "Reference pattern: a single glowing 3D object (sphere) floating among sharp dark geometric planes on a near-black canvas, minimal chrome, one pill CTA (studied from a dark 3D product-launch style hero on Dribbble's animation-websites search — recreated as an original scene/layout, not copied). No card grid: a full-bleed dark hero leads straight into a large-type manifesto statement, then an asymmetric dark services list.",
+    "motionPolicy": "immersive-3d",
+    "selectionReason": "explicitly forced (status: pending_review)"
+  },
+  "visualSystem": {
+    "key": "immersive-3d-hero",
+    "label": "Immersive 3D Hero — dark orbit",
+    "dark": true,
+    "cardStyle": "editorial-tactile",
+    "ctaLayout": "split-image",
+    "selectionReason": "explicitly forced (status: pending_review)"
+  },
+  "motionPreset": {
+    "key": "minimal-slow-reveal",
+    "label": "Minimal Luxury Slow Reveal",
+    "selectionReason": "visual system default (immersive-3d-hero → minimal-slow-reveal)",
+    "contentGated": false
+  },
+  "experimentalPreset": {
+    "key": "immersive-orbit",
+    "label": "Immersive Orbit",
+    "techniques": [
+      "particle-field",
+      "cursor-light"
+    ],
+    "selectionReason": "explicitly forced"
+  },
+  "selectionSignals": {
+    "servicesCount": 4,
+    "imagePoolCount": 0,
+    "hasRelevantImagery": false
+  },
+  "resolvedVisualDirection": {
+    "palette_source": "art_direction",
+    "palette_key": "immersive-3d-hero",
+    "palette": {
+      "key": "immersive-3d-hero",
+      "primary": "#f2f1ee",
+      "primaryDark": "#0a0a0d",
+      "accent": "#eaa93d",
+      "textDark": "#0b0b0e",
+      "textOnPrimary": "#0b0b0e",
+      "bgLight": "#f7f7f8",
+      "bgAlt": "#eeeef1",
+      "border": "#26262c",
+      "radius": "999px",
+      "ctaStyle": "outline",
+      "headingFont": "Manrope",
+      "bodyFont": "Inter",
+      "googleFonts": "Manrope:wght@600;700;800|Inter:wght@400;500;600"
+    },
+    "hero_variant": "immersive-3d-hero",
+    "section_style": "boxed",
+    "image_category": "general",
+    "matched_keywords": [
+      "consulting"
+    ],
+    "visual_system": "immersive-3d-hero",
+    "visual_system_label": "Immersive 3D Hero — dark orbit",
+    "visual_system_reason": "explicitly forced (status: pending_review)",
+    "motion_preset": "minimal-slow-reveal",
+    "motion_preset_label": "Minimal Luxury Slow Reveal",
+    "motion_preset_reason": "visual system default (immersive-3d-hero → minimal-slow-reveal)",
+    "motion_preset_content_gated": false,
+    "services_count": 4,
+    "image_pool_count": 0,
+    "has_relevant_imagery": false,
+    "experimental_preset": "immersive-orbit",
+    "experimental_preset_label": "Immersive Orbit",
+    "experimental_preset_reason": "explicitly forced"
+  }
+}
